@@ -1,0 +1,194 @@
+/* === ESTILO AZUL Y BLANCO REFRESCANTE === */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #2057a9, #eaf3ff);
+    color: #1a2a40;
+    transition: all 0.3s ease;
+}
+
+/* ENCABEZADO */
+header {
+    background: linear-gradient(90deg, #e0dc1f, #eb791b);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #e3f2fd;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* SECCIONES */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffffff;
+    margin: 30px auto;
+    border-radius: 16px;
+    max-width: 900px;
+    box-shadow: 0 4px 15px rgba(0, 50, 120, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 50, 120, 0.12);
+}
+
+h2 {
+    color: #2b6cb0;
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* HABILIDADES */
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+#habilidades li {
+    display: inline-block;
+    background: #ebf4ff;
+    color: #2b6cb0;
+    margin: 8px;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+#habilidades li:hover {
+    background: #bee3f8;
+}
+
+/* PROYECTOS */
+#proyectos div {
+    background: #f7fafc;
+    border: 1px solid #cbd5e0;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#proyectos div:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+#proyectos a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #2b6cb0;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+#proyectos a:hover {
+    background: #3182ce;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 350px;
+    margin: auto;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e0;
+    background: #f7fafc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #2b6cb0;
+    outline: none;
+}
+
+form button {
+    background: #2b6cb0;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #3182ce;
+}
+
+/* REDES */
+.redes a {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background: #2b6cb0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+/* EFECTO RESPONSIVO */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    section {
+        padding: 40px 15px;
+    }
+}
